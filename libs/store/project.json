@@ -1,0 +1,9 @@
+{
+  "name": "store",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "modules/store/src",
+  "prefix": "learning-ui",
+  "tags": [],
+  "projectType": "library",
+  "targets": {}
+}
