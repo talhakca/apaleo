@@ -6,11 +6,6 @@ import { userInitialState, UserState } from '@apaleo/shared';
 /* state key */
 export const featureKey = 'users';
 
-/* state interface */
-
-
-
-
 export const appReducer = createReducer(
   userInitialState,
   on(AppActions.GetUsersSuccessful, (state, action) => ({

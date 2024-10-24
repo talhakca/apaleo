@@ -9,9 +9,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import { User, UserAddress,UserState } from '@apaleo/shared';
 import { FormsModule } from '@angular/forms';
-import {SortBy} from '@apaleo/shared';
-import { debounceTime, distinct, distinctUntilChanged, Subject } from 'rxjs';
-import {MatSort, Sort, MatSortModule} from '@angular/material/sort';
+import { Sort, MatSortModule} from '@angular/material/sort';
 @Component({
   selector: 'lib-users-dashboard',
   standalone: true,
